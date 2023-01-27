@@ -10,6 +10,7 @@
     "@salesforce-ux/design-system": "^1.0.0",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
+    "cors": "^2.8.5",
     "nforce": "*"
   },
   "author": "",
