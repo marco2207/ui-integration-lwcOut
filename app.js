@@ -5,7 +5,7 @@ var port = process.env.PORT || 3000;
 var org = nforce.createConnection({
   clientId: process.env.CONSUMER_KEY,
   clientSecret: process.env.CONSUMER_SECRET,
-  redirectUri: 'https://md-ui-integration-lwcout.herokuapp.com//oauth/_callback',
+  redirectUri: 'https://md-ui-integration-lwcout.herokuapp.com/oauth/_callback',
   apiVersion: 'v46.0',  // optional, defaults to current salesforce API version
   environment: 'production',  // optional, salesforce 'sandbox' or 'production', production default
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
