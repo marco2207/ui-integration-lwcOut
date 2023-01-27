@@ -26,7 +26,8 @@
         <script>
           var url = "<%= ouathLightningURL %>";
           var token = "<%= oauthtoken %>";
-          console.log(url);
+          console.log("### url value: " + url);
+          console.log("### token value: " + token);
             $Lightning.use("c:integration", function() {
                   $Lightning.createComponent("c:wirelistview", {},
                      "box1",
