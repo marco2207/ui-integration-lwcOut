@@ -15,9 +15,9 @@ var org = nforce.createConnection({
 
 var app = express();
 
-/*app.use(cors({
-    origin: 'https://mdragoni-221110-131-demo.lightning.force.com'
-})); */
+app.use(cors({
+    origin: '*'
+}));
 
 // Require Routes js
 var routesHome = require('./routes/home');
