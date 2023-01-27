@@ -16,7 +16,7 @@ var org = nforce.createConnection({
 var app = express();
 
 app.use(cors({
-    origin: 'https://mdragoni-221110-131-demo.lightning.force.com/'
+    origin: 'https://mdragoni-221110-131-demo.lightning.force.com'
 }));
 
 // Require Routes js
